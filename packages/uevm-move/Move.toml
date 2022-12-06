@@ -1,0 +1,10 @@
+[package]
+name = "uevm-move"
+version = "0.1.0"
+
+[addresses]
+uevm = "0xCAFE"
+
+[dependencies]
+MoveStdlib = { local = "/Users/hechangbin/Documents/git/move/move/language/move-stdlib/", addr_subst = { "std" = "0x1" } }
+MoveNursery = { local = "/Users/hechangbin/Documents/git/move/move/language/move-stdlib/nursery/", addr_subst = { "std" = "0x1" } }
